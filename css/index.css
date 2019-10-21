@@ -1,0 +1,375 @@
+html,body,ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font:inherit;
+    font-family: "微软雅黑";
+}
+header{
+    height:50px;
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+header .title_logo{
+    position: absolute;
+    left:0;
+    margin-top:8.2px;
+    width: 640px;
+}
+header .login{
+    position: absolute;
+    font-size: 14px;
+    right:0;
+    z-index: 2;
+}
+header .login a{
+    text-decoration: none;
+    color:#999;
+    width:50px;
+    display: inline-block;
+    text-align: center;
+    height:30px;
+    margin-top:10px;
+    line-height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    border: 1px solid #dd524d;
+    background-color: #dd524d;
+}
+header .login a:hover{
+    color:#ddd;
+}
+header .login span{
+    cursor: pointer;
+    margin-left:10px;
+}
+header .erwei-code{
+    background: #fff;
+    display: none;
+    position: absolute;
+    right:-90px;
+    top:40px;
+    z-index: 1;
+    width:180px;
+    height:200px;
+    box-shadow: 0 4px 3px rgba(160,160,160,0.35);
+}
+header .erwei-code img{
+    margin:0 10px;
+    width:160px;
+    height:160px;
+}
+header .phone-icon{
+    font-size: 28px;
+    vertical-align: -8px;
+}
+header .erwei-code p{
+    margin:0;
+    text-align:center;
+    color:#0387d9;
+}
+.banner-box{
+    width:1519.2px;
+    height:400px;
+    position: relative;
+    margin: 0 auto;
+}
+.banner-box #banner_list{
+    height:100%;
+    padding:0;
+    width:100%;
+    position: relative;
+}
+.banner-box #banner_list .list-item{
+    left:0;
+    position: absolute;
+    width: 1519.2px;
+    list-style: none;
+    height:100%;
+    float:left;
+}
+.banner-box #banner_list .list-item a{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    padding:0;
+}
+#banner_pointer{
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    width:54px;
+    padding:0;
+    margin:0;
+    margin-left:-27px;
+}
+#banner_pointer li{
+    list-style: none;
+    width:8px;
+    height:8px;
+    background: #fff;
+    float: left;
+    margin:0 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#banner_pointer .current-pointer{
+    background: #dd524d;
+}
+.banner-box .jiantou{
+    position: absolute;
+    display: none;
+    width:30px;
+    height:40px;
+    background:#666;
+    top:50%;
+    margin-top:-20px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.banner-box .left-jiantou{
+    left:20px;
+}
+.banner-box .jiantou i{
+    margin-top:1px;
+    line-height: 40px;
+    font-size: 20px;
+    color:rgba(255,255,255,0.7);
+    display: inline-block;
+}
+.banner-box .jiantou:hover i{
+    color:rgba(255,255,255,1);
+}
+.banner-box .left-jiantou i{
+    margin-right:2px;
+}
+.banner-box .right-jiantou{
+    right:20px;
+}
+.banner-box .right-jiantou i{
+    margin-left:2px;
+    transform: rotate(180deg);
+}
+.main{
+    width:1200px;
+    margin:20px auto;
+}
+.main section{
+    position: relative;
+    overflow: hidden;
+    margin-bottom:25px;
+}
+.main section .section-title{
+    text-align: center;
+    margin-bottom:20px;
+}
+.main section .section-title img{
+    width:150px;
+}
+.main section .section-title p{
+    margin:0;
+    font-size: 14px;
+    color:#999;
+}
+.main section .section-title hr{
+    width:50px;
+    color:red;
+    margin-top:5px;
+}
+.main section .news-left{
+    float: left;
+    width:50%;
+    position: relative;
+    height:340px;
+    overflow: hidden;
+}
+.main section .news-left .small-banner{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height: 100%;
+}
+.main section .news-left .small-banner .small-banner-img{
+    position: relative;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    height: 100%;
+}
+.main section .news-left .small-banner .small-banner-img li{
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.main section .news-left .small-banner .small-banner-img li a{
+    display: block;
+    height: 100%;
+}
+.main section .news-left .small-banner .small-banner-img li a img{
+    width: 100%;
+}
+.main section .news-left .small-banner .small-banner-img li p{
+    position: absolute;
+    bottom:15px;
+    margin:0;
+    background: rgba(0,0,0,0.35);
+    color:rgba(255,255,255,0.7);
+    padding:5px 10px;
+    max-width:380px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 24px;
+    height:24px;
+    cursor: pointer;
+}
+.main section .news-left .small-banner .small-banner-img li p:hover{
+    color:rgba(255,255,255,1);
+}
+.main section .small-banner-pointer{
+    padding:0;
+    margin:0;
+    position: absolute;
+    bottom:25px;
+    right:0;
+}
+.main section .small-banner-pointer li{
+    float: left;
+    margin-right:10px;
+    list-style: none;
+    width:20px;
+    height:20px;
+    background: #d0d0d0;
+    text-align: center;
+    line-height: 20px;
+    color:#dd524d;
+    cursor: pointer;
+}
+.main section .small-banner-pointer .current-pointer{
+    background: #dd524d;
+    color:#fff;
+    transform: scale(1.3);
+}
+
+.main .news-right{
+    float: left;
+    width:50%;
+}
+.main .news-right .news-list{
+    margin:0;
+    padding:0;
+}
+.main .news-right .news-list li{
+    height:42.5px;
+    line-height:42.5px;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.main .news-right .news-list li:hover a{
+    color:#dd524d;
+}
+.main .news-right .news-list li span{
+    display: inline-block;
+    width:6px;
+    height:6px;
+    background: #dd524d;
+    border-radius: 10px;
+    margin:0 10px 0 24px;
+    vertical-align: middle;
+}
+.main .news-right .news-list li a{
+    color:#333;
+    font-size: 14px;
+}
+
+.main .chatu{
+    margin-bottom:25px;
+}
+.main .chatu img{
+    width:100%;
+}
+.main section .navigation{
+    position: relative;
+    
+}
+.main section .navigation ul{
+    margin:0;
+    padding:0;
+}
+.main section .navigation ul li{
+    float: left;
+    width:200px;
+    height:50px;
+    list-style: none;
+    overflow: hidden;
+    margin-right:133.3px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.main section .navigation ul li:nth-child(4n){
+    margin-right:0;
+}
+.main section .navigation ul li a{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    
+}
+.main section .navigation ul li a img{
+    width:100%;
+    height:100%;
+}
+footer{
+    width:1519.2px;
+    margin:0 auto;
+    background-color: #373d41;
+    height:300px;
+    position: relative;
+    bottom:0;
+}
+footer .footer-main{
+    width:1200px;
+    margin:0 auto;
+}
+footer .footer-main .footer-header{
+    height:80px;
+    line-height: 80px;
+    border-bottom:2px solid #666;
+    color:#ddd;
+    box-sizing: border-box;
+}
+footer .footer-main .footer-header a{
+    color:#dd524d;
+    margin-right:10px;
+    cursor: pointer;
+}
+footer .footer-main .footer-bottom{
+    height:220px;
+}
+footer .footer-main .footer-bottom .footer-bottom-left{
+    float: left;
+    margin-top:25px;
+}
+footer .footer-main .footer-bottom .footer-bottom-left ul{
+    padding:0;
+    margin:0;
+}
+footer .footer-main .footer-bottom .footer-bottom-left ul li{
+    list-style: none;
+    height:39px;
+    line-height: 39px;
+    color:#a0a0a0;
+    font-size: 14px;
+}
+footer .footer-main .footer-bottom .footer-bottom-right{
+    float: right;
+}
+footer .footer-main .footer-bottom .footer-bottom-right img{
+    width:160px;
+    margin-top:30px;
+}

@@ -365,6 +365,9 @@ header .erwei-code p{
     padding-right: 16px;
     /*! border-bottom: 1px solid; */
 }
+.main section .industry-dynamics li:hover a{
+    color:#dd524d !important;
+}
 .main section .industry-dynamics li::after{
     position: absolute;
     right: 0;

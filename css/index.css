@@ -10,6 +10,7 @@ header{
     width:1200px;
     margin:0 auto;
     position: relative;
+    background: #fff;
 }
 header .title_logo{
     position: absolute;
@@ -177,6 +178,7 @@ header .erwei-code p{
     width:50px;
     color:red;
     margin-top:5px;
+    /*! float: left; */
 }
 .main section .news-left{
     float: left;
@@ -273,7 +275,7 @@ header .erwei-code p{
 .main .news-right .news-list li:hover a{
     color:#dd524d;
 }
-.main .news-right .news-list li span{
+.main .list-dot{
     display: inline-block;
     width:6px;
     height:6px;
@@ -323,6 +325,79 @@ header .erwei-code p{
 .main section .navigation ul li a img{
     width:100%;
     height:100%;
+}
+.main section .industry-dynamics{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    background-color:#fff;
+}
+.main section .industry-dynamics::before{
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color:
+    #c8c7cc;
+    top: -1px;
+}
+.main section .industry-dynamics::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color:#c8c7cc;
+
+}
+.main section .industry-dynamics li{
+    position: relative;
+    overflow: hidden;
+    padding: 11px 15px;
+    padding-right: 16px;
+    /*! border-bottom: 1px solid; */
+}
+.main section .industry-dynamics li::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color:#c8c7cc;
+
+}
+.main section .industry-dynamics li a{
+    text-decoration: none;
+    color:#333;
+    font-size: 14px;
+}
+
+.main section .industry-dynamics .industry-dynamics-body{
+    overflow: hidden;
+}
+.main section .industry-dynamics text{
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    display: inline-block;
+    width: 1000px;
+}
+.main section .industry-dynamics time{
+    float: right;
+    font-size: 13px;
+    color:#8f8f94;
 }
 footer{
     width:1519.2px;
